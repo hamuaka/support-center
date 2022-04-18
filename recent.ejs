@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東工大生協サポートセンター</title>
+    <script src="https://kit.fontawesome.com/b2808959cc.js" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>   
+    <link rel="stylesheet" href="/css/stylesheet_recent.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+  </head>
+  <body>
+    <%- include('header'); %>
+    <div class="first-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h1>活動履歴</h1>
+        </div>
+        <div class="history">
+          <h2 class="heading">更新履歴</h2>
+          <!--更新履歴-->
+          <ul id="recentUpdates">
+            <!--hrefで#idとすることによって、ページ内リンクとしている。idは唯一のものであることが必要-->
+              <li><a href="#22/01/04">To Be Updated</a></li>
+              <li><a href="#22/01/03">To Be Updated</a></li>
+              <li><a href="#22/01/02">To Be Updated</a></li>
+              <li><a href="#22/01/01">To Be Updated</a></li>
+          </ul>
+        </div>
+        <!--活動履歴を追加する場所-->
+        <!--ここから-->
+        <div class="story">
+          <a class="heading storytitle" id="22/01/04">To Be Updated</a>
+          <p>To Be Updated</p>
+        </div>
+        <!--ここまでコピーして、idを全てと異なるものに変更し、利用-->
+        <div class="story">
+            <a class="heading storytitle" id="22/01/03">To Be Updated</a>
+            <p>To Be Updated</p>
+        </div>
+        <div class="story">
+          <a class="heading storytitle" id="22/01/02">To Be Updated</a>
+          <p>To Be Updated</p>
+        </div>
+        <div class="story">
+          <a class="heading storytitle" id="22/01/01">To Be Updated</a>
+          <p>To Be Updated</p>
+        </div>
+        <div class = "clear"></div>
+      </div>
+    </div>
+    <%- include('footer'); %>
+    <script src="script.js"></script>
+  </body>
+</html>
